@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metagr0ss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">metagr0ss</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <img src="assets/2x2 Formal Pic.png" alt="Lance Joseph De Vera" class="profile-image">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                    <span class="terminal-title">metagr0ss@terminal:~$</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line">Lance Joseph De Vera</p>
+                    <p class="terminal-line">Alias: metagr0ss</p>
+                    <p class="terminal-line">Aspiring SOC Analyst</p>
+                    <p class="terminal-line typing-line" id="typing-text"></p>
+                    <div class="terminal-buttons">
+                        <button class="btn" onclick="window.open('https://github.com/printfLj', '_blank')">View Projects</button>
+                        <button class="btn" onclick="window.location.href='#contact'">Contact Me</button>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/printfLj" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0.5C5.8 0.5 0.9 5.4 0.9 11.6c0 5 3.3 9.3 7.9 10.8 0.6 0.1 0.8-0.2 0.8-0.5 0-0.3 0-1.1 0-2.2-3.2 0.7-3.9-1.5-3.9-1.5-0.5-1.3-1.2-1.6-1.2-1.6-1-0.7 0.1-0.7 0.1-0.7 1.1 0.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2 0.9 0.1-0.7 0.4-1.2 0.7-1.5-2.5-0.3-5.1-1.2-5.1-5.3 0-1.2 0.4-2.2 1.1-3-0.1-0.3-0.5-1.5 0.1-3.2 0 0 0.9-0.3 3.2 1.1 0.9-0.2 1.8-0.4 2.7-0.4 0.9 0 1.8 0.1 2.7 0.4 2.3-1.4 3.2-1.1 3.2-1.1 0.6 1.7 0.2 2.9 0.1 3.2 0.7 0.8 1.1 1.8 1.1 3 0 4.1-2.6 5-5.1 5.3 0.4 0.3 0.8 1 0.8 2.1 0 1.6 0 2.8 0 3.2 0 0.3 0.2 0.6 0.8 0.5 4.6-1.5 7.9-5.8 7.9-10.8C23.1 5.4 18.2 0.5 12 0.5z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/printfLj" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 24h5V7H0v17zM8 24h5v-9.4c0-4.5 5.3-4.8 5.3 0V24h5V13.1c0-7.7-8.7-7.4-10.3-3.6V7H8v17z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/printfLj" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9V15.3h-2.4v-3h2.4V10c0-2.4 1.4-3.7 3.6-3.7 1 0 2 .1 2 .1v2.3h-1.2c-1.2 0-1.5.7-1.5 1.4v1.7h2.6l-.4 3h-2.2v6.6A10 10 0 0 0 22 12z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/printflj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.9.3 2.4.5.6.2 1.1.5 1.6 1 .5.5.8 1.1 1 1.6.2.5.4 1.2.5 2.4.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.9-.5 2.4-.2.6-.5 1.1-1 1.6-.5.5-1.1.8-1.6 1-.5.2-1.2.4-2.4.5-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.9-.3-2.4-.5-.6-.2-1.1-.5-1.6-1-.5-.5-.8-1.1-1-1.6-.2-.5-.4-1.2-.5-2.4C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.3-1.9.5-2.4.2-.6.5-1.1 1-1.6.5-.5 1.1-.8 1.6-1 .5-.2 1.2-.4 2.4-.5C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.4 0-4.6.1-.9.1-1.4.2-1.8.4-.5.2-.8.4-1.2.8-.3.4-.6.7-.8 1.2-.2.4-.3.9-.4 1.8-.1 1.2-.1 1.5-.1 4.6s0 3.4.1 4.6c.1.9.2 1.4.4 1.8.2.5.4.8.8 1.2.4.3.7.6 1.2.8.4.2.9.3 1.8.4 1.2.1 1.5.1 4.6.1s3.4 0 4.6-.1c.9-.1 1.4-.2 1.8-.4.5-.2.8-.4 1.2-.8.3-.4.6-.7.8-1.2.2-.4.3-.9.4-1.8.1-1.2.1-1.5.1-4.6s0-3.4-.1-4.6c-.1-.9-.2-1.4-.4-1.8-.2-.5-.4-.8-.8-1.2-.4-.3-.7-.6-1.2-.8-.4-.2-.9-.3-1.8-.4-1.2-.1-1.5-.1-4.6-.1zm0 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1.8a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4zm5.5-.9a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I am Lance Joseph De Vera, an aspiring SOC Analyst with a strong foundation in computer science and a growing focus on cybersecurity and blue team operations. With hands-on experience in networking, digital forensics, and log analysis, I have developed practical skills through academic projects and competitive environments such as CTFs. Passionate about understanding and defending against cyber threats, I continuously work on improving my abilities in threat detection, incident investigation, and security analysis. Committed to learning and growth, I actively seek opportunities to expand my expertise and contribute to real-world cybersecurity practices.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity Tools</h3>
+                    <ul>
+                        <li>Kali Linux</li>
+                        <li>Windows 11</li>
+                        <li>Wireshark</li>
+                        <li>Splunk</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Concepts</h3>
+                    <ul>
+                        <li>Networking</li>
+                        <li>Digital Forensics</li>
+                        <li>Log Analysis</li>
+                        <li>OSINT</li>
+                        <li>Steganography</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Cursor</li>
+                        <li>GPT</li>
+                        <li>Claude</li>
+                        <li>Ollama</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Talakay</h3>
+                    <p>PHP-based community discussion platform.</p>
+                    <p><strong>Tech Stack:</strong> PHP, HTML, CSS</p>
+                    <p><strong>Role:</strong> Lead Developer</p>
+                </div>
+                <div class="project-card">
+                    <h3>Praxis</h3>
+                    <p>Web3 freelancing platform built with Solidity for smart contracts.</p>
+                    <p><strong>Tech Stack:</strong> Solidity, PHP</p>
+                    <p><strong>Role:</strong> Back-End Developer</p>
+                </div>
+                <div class="project-card">
+                    <h3>Nunot</h3>
+                    <p>AI-powered educational assistant app for personalized learning.</p>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+                    <p><strong>Role:</strong> Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">CTF & Achievements</h2>
+            <ul class="achievements-list">
+                <li>Hack4Gov 2025 – 6th Place, Team Cyberowls Beta</li>
+                <li>QnQSec 2025 – Rank 164, Team Cyberowls</li>
+                <li>Trend Micro CTF - 150th place, Team Stegosaurus</li>
+                <li>Hack the Chain – 1st Runner-up, Team Praxis</li>
+                <li>SIKAPTala 2025 – Top 10 Finalist, Team ByteMe</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p><strong>Universidad de Dagupan</strong></p>
+            <p>BS Computer Science (Expected Graduation: 2028)</p>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">My Blog</h2>
+            <p class="section-subtitle">Check out my latest cybersecurity write-ups and analysis on Medium.</p>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="assets/BTLO-Network-Analysis-Network-Analysis.png" alt="Network Analysis" class="blog-image">
+                    <h3>BTLO: Network Analysis</h3>
+                    <p>Deep dive into network analysis techniques for SOC operations and threat hunting.</p>
+                    <a class="read-more" href="https://medium.com/@metagr0ss/btlo-network-analysis-477c988b7770" target="_blank" rel="noopener noreferrer">Read More</a>
+                </article>
+                <article class="blog-card">
+                    <img src="assets/BTLO-Middle-Mayhem.png" alt="Middle Mayhem" class="blog-image">
+                    <h3>BTLO: Middle Mayhem</h3>
+                    <p>Exploring attack patterns for incident investigation.</p>
+                    <a class="read-more" href="https://medium.com/@metagr0ss/btlo-middle-mayhem-6e85521e2e06" target="_blank" rel="noopener noreferrer">Read More</a>
+                </article>
+                <article class="blog-card placeholder-card">
+                    <div class="blog-icon">🧠</div>
+                    <h3>More Write-ups Coming</h3>
+                    <p>Future posts will cover blue team tools, log analysis, and SOC playbooks.</p>
+                    <span class="read-more disabled">Coming Soon</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses & Certifications -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2 class="section-title">Courses & Certifications</h2>
+            <div class="certificates-grid">
+                <img src="assets/introduction-to-cybersecurity.png" alt="Introduction to Cybersecurity Certificate" class="certificate-image">
+                <img src="assets/introduction-to-data-science.png" alt="Introduction to Data Science Certificate" class="certificate-image">
+                <img src="assets/H4G Cert.jpg" alt="H4G Certificate" class="certificate-image">
+                <img src="assets/HackTheChain.jpg" alt="HackTheChain Certificate" class="certificate-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Currently Learning -->
+    <section id="learning" class="section">
+        <div class="container">
+            <h2 class="section-title">Currently Learning</h2>
+            <ul>
+                <li>SOC Operations</li>
+                <li>SIEM (Splunk)</li>
+                <li>Threat Detection</li>
+                <li>Incident Response</li>
+                <li>Python</li>
+                <li>AI/ML</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-card">
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <input type="email" name="email" class="contact-input" placeholder="email" aria-label="Email" autocomplete="email" inputmode="email" required>
+                    <input type="text" name="website" class="contact-honeypot" autocomplete="off" tabindex="-1" aria-hidden="true">
+                    <textarea name="message" class="contact-textarea" placeholder="your message" aria-label="Your Message" minlength="10" maxlength="1000" required></textarea>
+                    <div class="form-error" id="contact-error" aria-live="polite"></div>
+                    <button type="submit" class="btn contact-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
