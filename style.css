@@ -41,6 +41,28 @@ html {
     font-size: 1.5rem;
     font-weight: bold;
     color: #00ff00;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-brand:hover {
+    color: #ffffff;
+}
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #00ff00;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+    border-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
 }
 
 .nav-links {
@@ -267,8 +289,8 @@ html {
 /* Sections */
 .section {
     padding: 80px 20px;
-    opacity: 0;
-    transform: translateY(20px);
+    opacity: 1;
+    transform: translateY(0);
     transition: opacity 0.6s, transform 0.6s;
 }
 
